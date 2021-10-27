@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/HomeFragment">
+
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.newsapp.Fragments.HomeFragment"
+        android:label="News App"
+        tools:layout="@layout/fragment_home" />
+
+
+
+
+
+    <fragment
+        android:id="@+id/AajTakFragment"
+        android:name="com.example.newsapp.Fragments.AajTakFragment"
+        android:label="Aaj Tak"
+        tools:layout="@layout/fragment_aaj_tak" />
+
+    <fragment
+        android:id="@+id/IndiaTVFragment"
+        android:name="com.example.newsapp.Fragments.IndiaTVFragment"
+        android:label="India TV"
+        tools:layout="@layout/fragment_india_t_v" />
+
+    <fragment
+        android:id="@+id/NDTVFragment"
+        android:name="com.example.newsapp.Fragments.NDTVFragment"
+        android:label="NDTV"
+        tools:layout="@layout/fragment_n_d_t_v" />
+
+    <fragment
+        android:id="@+id/AlJazeeraFragment"
+        android:name="com.example.newsapp.Fragments.AlJazeeraFragment"
+        android:label="AL Jazeera"
+        tools:layout="@layout/fragment_al_jazeera" />
+
+    <fragment
+        android:id="@+id/BBCFragment"
+        android:name="com.example.newsapp.Fragments.BBCFragment"
+        android:label="BBC News"
+        tools:layout="@layout/fragment_b_b_c" />
+
+    <fragment
+        android:id="@+id/SkyNewsFragment"
+        android:name="com.example.newsapp.Fragments.SkyNewsFragment"
+        android:label="Sky News"
+        tools:layout="@layout/fragment_sky_news" />
+
+
+
+
+
+</navigation>

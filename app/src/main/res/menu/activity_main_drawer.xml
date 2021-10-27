@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="" >
+        <menu>
+        <item
+            android:id="@+id/HomeFragment"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+
+        </menu>
+        </item>
+
+    </group>
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Indian" >
+            <menu>
+
+                <item
+                    android:id="@+id/AajTakFragment"
+                    android:icon="@drawable/ic_arrow"
+                    android:title="@string/aaj_tak"
+                    android:menuCategory="secondary"
+
+                   />
+
+                <item
+                    android:id="@+id/IndiaTVFragment"
+                    android:icon="@drawable/ic_arrow"
+                    android:title="@string/india_tv"
+                    android:menuCategory="secondary"
+
+                    />
+                <item
+                    android:id="@+id/NDTVFragment"
+                    android:icon="@drawable/ic_arrow"
+                    android:title="@string/ndtv"
+                    android:menuCategory="secondary"
+                    />
+
+            </menu>
+        </item>
+
+
+
+
+
+        <item android:title="International" >
+            <menu>
+
+                <item
+                    android:id="@+id/AlJazeeraFragment"
+                    android:icon="@drawable/ic_arrow"
+                    android:title="@string/al_jazeera"
+                    android:menuCategory="secondary"
+                   />
+                <item
+                    android:id="@+id/BBCFragment"
+                    android:icon="@drawable/ic_arrow"
+                    android:title="@string/bbc_news"
+                    android:menuCategory="secondary"
+                   />
+                <item
+                    android:id="@+id/SkyNewsFragment"
+                    android:icon="@drawable/ic_arrow"
+                    android:title="@string/sky_news"
+                    android:menuCategory="secondary"
+                    />
+
+            </menu>
+        </item>
+
+
+
+    </group>
+</menu>
